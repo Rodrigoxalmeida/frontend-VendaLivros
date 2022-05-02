@@ -1,0 +1,14 @@
+.card {
+    width: 90%;
+    margin:4em auto;
+    background-color: rgb(235,235,235);
+}
+
+img {
+    height: 20rem;
+}
+
+.dev {
+    text-align: center;
+    opacity: .4;
+}

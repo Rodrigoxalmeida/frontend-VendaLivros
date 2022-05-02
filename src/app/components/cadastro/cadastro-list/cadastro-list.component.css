@@ -1,0 +1,23 @@
+.container {
+    width: 90%;
+    margin: auto; 
+}
+
+table {
+    width: 100%; 
+}
+
+mat-form-field{
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    color: orange;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 3rem auto 3rem auto;
+}

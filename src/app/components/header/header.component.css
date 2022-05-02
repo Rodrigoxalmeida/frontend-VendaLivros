@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: orange;
+    margin-top: 2rem;
+    padding: 1rem 10%;
+    opacity: .8;
+}

@@ -1,0 +1,33 @@
+<mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer mat-elevation-z8 class="sidenav" mode="side" opened>
+        <img src="assets/img/side-nav.svg" alt="imagem de navegação">
+    <mat-nav-list class="nav-list">
+        <a mat-list-item routerLink="/home">
+            <i class="material-icons">home</i>
+            Home
+        </a>
+        <a mat-list-item routerLink="/cadastrar">
+            <i class="material-icons">library_add</i>
+            Cadastrar
+        </a>
+        <a mat-list-item routerLink="/">
+            <i class="material-icons">archive</i>
+            Vendidos
+        </a>
+        <a mat-list-item routerLink="/">
+            <i class="material-icons">contacts</i>
+            Contato
+        </a>
+        <a mat-list-item routerLink="/">
+            <i class="material-icons">logout</i>
+            Sair
+        </a>
+    </mat-nav-list>
+    </mat-drawer>
+    
+    <mat-drawer-content>
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
