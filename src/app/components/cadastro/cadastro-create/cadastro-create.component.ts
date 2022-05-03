@@ -20,7 +20,7 @@ export class CadastroCreateComponent implements OnInit {
     codigo: '',
     preco: '',
     descricao: '',
-    localvenda: [],
+    localVenda: [],
     dataVenda: '' 
   }
 
@@ -57,10 +57,10 @@ export class CadastroCreateComponent implements OnInit {
 
   addLocalVenda(local: any): void {
     
-    if(this.cadastro.localvenda.includes(local)){
-      this.cadastro.localvenda.splice(this.cadastro.localvenda.indexOf(local),1);
+    if(this.cadastro.localVenda.includes(local)){
+      this.cadastro.localVenda.splice(this.cadastro.localVenda.indexOf(local),1);
     }else{
-      this.cadastro.localvenda.push(local);
+      this.cadastro.localVenda.push(local);
     }
 
   }

@@ -5,6 +5,6 @@ export interface Cadastro{
     codigo:    string;
     preco:     any;
     descricao: string;
-    localvenda:string[];
+    localVenda:string[];
     dataVenda: any;
 }
