@@ -3,7 +3,7 @@ export interface Cadastro{
     titulo:    string;
     autor:     string;
     codigo:    string;
-    preco:     number;
+    preco:     any;
     descricao: string;
     localvenda:string[];
     dataVenda: any;

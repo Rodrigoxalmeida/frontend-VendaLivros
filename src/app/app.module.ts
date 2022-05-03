@@ -31,6 +31,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CadastroListComponent } from './components/cadastro/cadastro-list/cadastro-list.component';
 import { CadastroCreateComponent } from './components/cadastro/cadastro-create/cadastro-create.component';
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -66,6 +67,11 @@ import { CadastroCreateComponent } from './components/cadastro/cadastro-create/c
     MatIconModule,
     MatListModule,
     MatCardModule,
+    ToastrModule.forRoot({
+      timeOut:4000,
+      closeButton:true,
+      progressBar: true
+    })
   
   ],
   providers: [],
