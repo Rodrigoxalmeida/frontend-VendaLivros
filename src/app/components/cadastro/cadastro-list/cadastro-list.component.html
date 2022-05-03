@@ -2,11 +2,11 @@
     
     <h1>Livros Vendidos</h1>
 
-    <button class="mat-elevation-z8" mat-stroked-button color="orange">Cadastrar</button>    
+    <button routerLink="create" class="mat-elevation-z8" mat-stroked-button color="orange">Cadastrar</button>    
 
     <mat-form-field appearance="standard">
         <mat-label>Buscar</mat-label>
-        <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+        <input matInput (keyup)="applyFilter($event)" placeholder="Ex. título,autor,editora,codigo" #input>
       </mat-form-field>
 
     <div class="mat-elevation-z8">

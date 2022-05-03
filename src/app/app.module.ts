@@ -30,6 +30,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CadastroListComponent } from './components/cadastro/cadastro-list/cadastro-list.component';
+import { CadastroCreateComponent } from './components/cadastro/cadastro-create/cadastro-create.component';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { CadastroListComponent } from './components/cadastro/cadastro-list/cadas
     NavComponent,
     HomeComponent,
     HeaderComponent,
-    CadastroListComponent
+    CadastroListComponent,
+    CadastroCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -63,6 +66,7 @@ import { CadastroListComponent } from './components/cadastro/cadastro-list/cadas
     MatIconModule,
     MatListModule,
     MatCardModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
