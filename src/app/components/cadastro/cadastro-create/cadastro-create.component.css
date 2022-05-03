@@ -11,6 +11,7 @@
 
 h1 {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 img {
@@ -27,8 +28,20 @@ img {
 
 button {
     margin-top: 1rem;
+}
+
+.loja {
     color: orange;
 }
 
+.insta {
+    color: blueviolet;
+    height: 1.5rem;
+}
+
+.whats {
+    color: green;
+    height: 1.5rem;
+}
 
 
