@@ -33,6 +33,7 @@ import { CadastroListComponent } from './components/cadastro/cadastro-list/cadas
 import { CadastroCreateComponent } from './components/cadastro/cadastro-create/cadastro-create.component';
 import { ToastrModule } from 'ngx-toastr';
 import { CadastroUpdateComponent } from './components/cadastro/cadastro-update/cadastro-update.component';
+import { CadastroDeleteComponent } from './components/cadastro/cadastro-delete/cadastro-delete.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { CadastroUpdateComponent } from './components/cadastro/cadastro-update/c
     HeaderComponent,
     CadastroListComponent,
     CadastroCreateComponent,
-    CadastroUpdateComponent
+    CadastroUpdateComponent,
+    CadastroDeleteComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastroCreateComponent } from './components/cadastro/cadastro-create/cadastro-create.component';
+import { CadastroDeleteComponent } from './components/cadastro/cadastro-delete/cadastro-delete.component';
 import { CadastroListComponent } from './components/cadastro/cadastro-list/cadastro-list.component';
 import { CadastroUpdateComponent } from './components/cadastro/cadastro-update/cadastro-update.component';
 import { HomeComponent } from './components/home/home.component';
@@ -12,7 +13,8 @@ const routes: Routes = [
       {path: 'home', component: HomeComponent},
       {path: 'cadastrar' , component: CadastroListComponent},
       {path: 'cadastrar/create' , component: CadastroCreateComponent},
-      {path: 'cadastrar/update/:id' , component: CadastroUpdateComponent}
+      {path: 'cadastrar/update/:id' , component: CadastroUpdateComponent},
+      {path: 'cadastrar/delete/:id' , component: CadastroDeleteComponent}
     ]
   }
 ];

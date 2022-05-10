@@ -1,0 +1,53 @@
+.container {
+    width: 50rem;
+    margin: 3rem auto 3rem auto;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: .6rem;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.excluir {
+    color: white;
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+img {
+    height: 12rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+.loja {
+    color: orange;
+}
+
+.insta {
+    color: blueviolet;
+    height: 1.5rem;
+}
+
+.whats {
+    color: green;
+    height: 1.5rem;
+}
+
+
+

@@ -27,5 +27,9 @@ export class CadastroService {
     return this.http.put<Cadastro>(`${API_CONFIG.baseUrl}/vendas/${cadastro.id}`, cadastro);
   }
 
+  delete(id: Cadastro): Observable<Cadastro> {
+    return this.http.delete<Cadastro>(`${API_CONFIG.baseUrl}/vendas/${id}`);
+  } 
+
 
 }
