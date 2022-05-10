@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+.cadastrar {
+    color: white;
+    background-color: rgb(255, 115, 0);
+}
+
 h1 {
     text-align: center;
     margin-bottom: 1rem;
