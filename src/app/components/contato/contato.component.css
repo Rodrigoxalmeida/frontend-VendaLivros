@@ -6,7 +6,7 @@
 
 img {
     height: 25rem;
-    
+    margin-top: 5rem;
 }
 
 .dev {
@@ -14,6 +14,6 @@ img {
     opacity: .4;
 }
 
-.titulo {
-    margin-bottom: 1rem;
+.contato{
+    font-size: 18px;
 }

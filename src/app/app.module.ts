@@ -34,6 +34,7 @@ import { CadastroCreateComponent } from './components/cadastro/cadastro-create/c
 import { ToastrModule } from 'ngx-toastr';
 import { CadastroUpdateComponent } from './components/cadastro/cadastro-update/cadastro-update.component';
 import { CadastroDeleteComponent } from './components/cadastro/cadastro-delete/cadastro-delete.component';
+import { ContatoComponent } from './components/contato/contato.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { CadastroDeleteComponent } from './components/cadastro/cadastro-delete/c
     CadastroListComponent,
     CadastroCreateComponent,
     CadastroUpdateComponent,
-    CadastroDeleteComponent
+    CadastroDeleteComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
