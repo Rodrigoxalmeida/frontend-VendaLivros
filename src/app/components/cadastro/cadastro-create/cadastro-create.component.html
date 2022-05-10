@@ -58,7 +58,8 @@
           <p>
             <mat-form-field class="fullwidth" appearance="legacy">
               <mat-label>Preço</mat-label>
-              <input 
+              <input type="text"
+              onkeypress="return event.charCode >= 48 && event.charCode <= 57"
               [(ngModel)]="cadastro.preco"
               name="preco"
               [formControl]="preco"

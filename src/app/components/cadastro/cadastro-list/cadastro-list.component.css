@@ -23,3 +23,10 @@ h1 {
     margin: 3rem auto 3rem auto;
 }
 
+.edit {
+    color: rgb(255, 115, 0);
+}
+
+.delete {
+    color: red;
+}
